@@ -1,0 +1,52 @@
+
+header{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+
+}
+
+#corpo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+main, aside{
+    padding: 15px;
+}
+
+main{
+    width: 60vw;
+    border: gray 0.05px solid;    
+}
+
+main section figure{
+    display: flex;
+    justify-content: center;
+}
+
+main section figure img{
+    width: 150px;
+}
+
+main section figure div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main section figure div figcaption {
+    margin: 10px 5px;
+}
+
+aside{
+    border: gray 0.05px solid;
+    width: 20vw;
+}
+
